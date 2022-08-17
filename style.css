@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fce5e1;
+}
+
+.main-container {
+  background-color: #dc6c5e;
+  width: 82rem;
+  margin: auto;
+  margin-top: 12rem;
+  border: 4px solid rgb(35, 34, 34);
+}
+
+.main-container .cw-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.main-container .cw-logo img {
+  width: 18rem;
+  border: 4px solid rgb(35, 34, 34);
+  border-radius: 50%;
+  margin-top: -10rem;
+}
+
+.text {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.text h1 span {
+  color: yellow;
+}
+
+.text p {
+  font-size: 5rem;
+  margin: 4rem 0 6rem 0;
+  font-weight: 700;
+  color: rgb(76, 74, 74);
+}
+
+.container .download {
+  text-align: center;
+  margin: 3.5rem 0;
+  font-size: 1.8rem;
+  color: rgb(214, 2, 190);
+  font-weight: 600;
+}
